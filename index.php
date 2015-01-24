@@ -20,19 +20,6 @@
         include("layout/navbar.php");
     ?>
 
-    <?php if (isSet($_SESSION["emailAddress"])) : ?>
-        <script>
-            $("#navbar-right-null").remove();
-            $("#usernameButton").html($_SESSION['emailAddress']);
-        </script>
-
-    <?php else : ?>
-        <script>
-            $("#navbar-right-session").remove();
-        </script>
-
-    <?php endif ; ?>
-
     <div class="jumbotron">
         <div class="container">
             <h1>NUSMaids</h1>

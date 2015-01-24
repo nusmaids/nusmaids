@@ -28,4 +28,17 @@
         </div>
 
     </div>
+    <?php if (isSet($_SESSION["emailAddress"])) : ?>
+        <script>
+        $("#navbar-right-null").remove();
+        $("#usernameButton").html($_SESSION['emailAddress']);
+    </script>
+
+    <?php else : ?>
+    <script>
+        $("#navbar-right-session").remove();
+    </script>
+
+    <?php endif ; ?>
+
 </nav>
