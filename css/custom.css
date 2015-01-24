@@ -36,3 +36,17 @@ body {
 .nusmaids-selection-link:hover {
     color: red;
 }
+
+.nusmaids-form-title {
+    font-size:10px;
+    color: #959595;
+    text-transform: uppercase;
+}
+
+#filter-button {
+    float:right;
+}
+
+#form-wrapper {
+    border: 1px solid black;
+}
