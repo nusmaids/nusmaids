@@ -9,8 +9,6 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery-1.11.2.js"></script>
 
-    <script src="js/checkpass.js"></script>
-
     <title>
         NUSMaids
     </title>
@@ -62,7 +60,7 @@
                 </div>
 
                 <div class="nusmaids-form-item-wrapper">
-                    <p class="form-error-message" id="div-check-match"></p>
+                    <p id="div-check-match"></p>
                 </div>
 
                 <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="create-account-button">Create Account</button>

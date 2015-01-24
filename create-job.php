@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+    <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="css/nusstyles.css" />
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="css/custom.css" />
-    <meta charset="UTF-8">
-    <title></title>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.11.2.js"></script>
+
+    <title>NUSMaids</title>
+
 </head>
+
 <body>
     <?php
     include("layout/navbar.php");
