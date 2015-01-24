@@ -1,0 +1,38 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.nusmaids-navbar-item {
+    margin: 5px 5px;
+}
+
+.nusmaids-brand {
+    font-size: 28px;
+}
+
+.nusmaids-login-button {
+
+}
+
+.nusmaids-selection-box {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50%;
+}
+
+#find-jobs-box {
+    float: left;
+}
+
+#create-jobs-box {
+    float: right;
+}
+
+.nusmaids-selection-link {
+    margin: 5px;
+}
+
+.nusmaids-selection-link:hover {
+    color: red;
+}

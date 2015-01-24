@@ -1,1 +1,4 @@
-<?php echo get_file_contents("index.html"); ?>
+<?php
+    //echo get_file_contents("index.html");
+    echo "hellowodl"
+?>

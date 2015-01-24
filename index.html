@@ -3,73 +3,39 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="spacelab/bootstrap.min.css" rel="stylesheet">
-    <link href="tpb/tpb.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <link href="img/icon.ico" rel="favicon">
 
     <title>
-        Hello World!
+        NUSMaids
     </title>
-    <style>
-        body {
-            background:#000000
-        }
-        .redbox {
-            border-style:solid;
-            border-radius:50px;
-            border-color:#FF0000;
-        }
-        div p {
-            /* only styles p inside divs. */
-
-        }
-        div, p {
-            /*applies to all divs and p */
-
-        }
-        div:hover {
-            /* applied to the hover pseudoclass of div */
-            color: white;
-        }
-    </style>
 
 </head>
 
 <body>
-    <video autoplay muted preload loop>
-        <!--taken from tpb-->
-        <source src="tpb/flag.mp4" type="video/mp4">
-    </video>
-    <div class="container redbox">
-        <h1>
-            Hey there<hr>
-        </h1>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-        <p>
-            I am <strong>Nicholas Lum</strong> and this is <em>not</em> my first webpage.
-            <br>
-            My main site is (will be) at <a href="http://nicklum.com" target="_blank">nicklum.com</a>. It's still under construction.
-            <br>
-            I have a small working one at <a href="http://nicholaslum444.github.io" target="_blank">nicholaslum444.github.io</a>.
-            <br>
-            I know some concepts of how HTML and CSS work, but I have very little experience working with them.
-            <br>
-            So I'm looking forward to learning and experimenting in this module!
-        </p>
-    </div>
-    <p>
-        this paragraph is not inside a div
-    </p>
-    <hr>
+                <a class="navbar-brand nusmaids-navbar-item nusmaids-brand" href="/welcome/index.html">NUSMaids</a>
 
-    <nav class="container">
-        <a href="http://cp3101b.comp.nus.edu.sg/~nicholasl/" class="lab_link" target="_blank">Lab 0</a>
-        <span class="link_separator">|</span>
-        <a href="http://cp3101b.comp.nus.edu.sg/~nicholasl/lab1/" class="lab_link" target="_blank">Lab 1</a>
-        <span class="link_separator">|</span>
-        <a href="http://cp3101b.comp.nus.edu.sg/~nicholasl/lab2/" class="lab_link" target="_blank">Lab 2</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="navbar-right">
+                    <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="#" role="button">Sign up</a>
+                    <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="#" role="button">Sign in</a>
+                </div>
+
+            </div>
+        </div>
     </nav>
-    <hr>
 
 
 </body>
