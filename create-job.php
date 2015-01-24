@@ -8,34 +8,9 @@
     <title></title>
 </head>
 <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-
-            <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand nusmaids-navbar-item nusmaids-brand" href="index.html">NUSMaids</a>
-
-            </div>
-
-            <div id="navbar" class="navbar-collapse collapse">
-
-                <div class="navbar-right">
-                    <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="#" role="button">Sign up</a>
-                    <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="#" role="button">Sign in</a>
-                </div>
-
-            </div>
-
-        </div>
-    </nav>
+    <?php
+    include("layout/navbar.php");
+    ?>
 
     <div class="jumbotron">
 
@@ -98,7 +73,7 @@
                     <input type="text" class="form-control" id="inputDescription" placeholder="Your job description">
                 </div>
 
-                <button type="submit" class="btn btn-primary btn-lg btn-success" id="createSubmitButton">Submit Form</button>
+                <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="createSubmitButton">Create Job</button>
 
             </form>
         </div>

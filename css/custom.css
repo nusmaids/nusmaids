@@ -43,8 +43,9 @@ body {
     text-transform: uppercase;
 }
 
-#filter-button {
+.nusmaids-form-button {
     float:right;
+    margin-top: 20px;
 }
 
 #form-wrapper {
