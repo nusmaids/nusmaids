@@ -1,4 +1,4 @@
 <?php
-    //echo get_file_contents("index.html");
-    echo "hellowodl"
+    echo file_get_contents("index-tree.html");
+    //echo "hellowodl";
 ?>
