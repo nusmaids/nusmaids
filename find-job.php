@@ -48,6 +48,14 @@
                     document.getElementById('job-type').selectedIndex=<?php echo $_GET["j"] - 1 ?>;
                 </script>
 
+                <?php if(isSet($_SESSION['emailAddress'])) : ?>
+                    <script language="javascript">
+                        window.location.href = "login.php"
+                    </script>
+
+                <?php endif ; ?>
+
+
             </div>
 
         </div>
