@@ -17,8 +17,8 @@
         <div id="navbar" class="navbar-collapse collapse">
 
             <div class="navbar-right">
-                <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="register.php" role="button">Register</a>
-                <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="login.php" role="button">Login</a>
+                <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="register.php" role="button" id="registerButton">Register</a>
+                <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="login.php" role="button" id="logInButton">Login</a>
             </div>
 
         </div>
