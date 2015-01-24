@@ -6,6 +6,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="img/icon.ico" rel="favicon">
+    <script src="js/checkpass.js"></script>
 
     <title>
         NUSMaids
@@ -28,7 +29,7 @@
         <hr>
 
         <div class="container form-create-container" id="create-form-container">
-            <form class="form-horizontal" id="create-form-horizontal">
+            <form class="form-horizontal" id="create-form-horizontal" >
 
                 <div class="nusmaids-form-item-wrapper">
                     <div class="form-create-header">
@@ -44,7 +45,7 @@
                         <label class="create-form-group">Password</label>
                     </div>
                     <div class="form-create-input">
-                        <input type="password" class="form-control" id="input-nus-email" >
+                        <input type="password" class="form-control" id="input-password" >
                     </div>
                 </div>
 
@@ -53,7 +54,7 @@
                         <label class="create-form-group">Confirm Password</label>
                     </div>
                     <div class="form-create-input">
-                        <input type="password" class="form-control" id="input-nus-email" >
+                        <input type="password" class="form-control" id="input-password-confirm" >
                     </div>
                 </div>
 
