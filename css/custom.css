@@ -52,7 +52,7 @@ body {
     border: 0px solid black;
 }
 
-.form-error-message {
+p.form-error-message {
     font-size: 12px;
     color: #FF0000;
 }
