@@ -18,7 +18,7 @@
 
             <div class="navbar-right">
                 <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="register.php" role="button">Register</a>
-                <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="#" role="button">Login</a>
+                <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="login.php" role="button">Login</a>
             </div>
 
         </div>

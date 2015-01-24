@@ -37,6 +37,10 @@ body {
     color: red;
 }
 
+.nusmaids-form-item-wrapper {
+    margin: 20px auto;
+}
+
 .nusmaids-form-title {
     font-size:10px;
     color: #959595;
