@@ -19,7 +19,7 @@
 
 <body>
     <?php
-    include("layout/navbar.php");
+        include("layout/navbar.php");
     ?>
 
     <div class="jumbotron">
