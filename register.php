@@ -58,7 +58,11 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="createSubmitButton">Create Account</button>
+                <div class="nusmaids-form-item-wrapper">
+                    <p id="div-check-match"></p>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="create-account-button">Create Account</button>
 
             </form>
         </div>
