@@ -26,7 +26,6 @@
 
         <?php
         include("layout/reg-template.php");
-        echo "helloworld";
         ?>
 
     </div>

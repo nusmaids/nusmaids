@@ -36,7 +36,34 @@
         </div>
 
         <div class="nusmaids-form-item-wrapper">
-            <p class="form-error-message" id="div-check-match"></p>
+            <p class="form-error-message" id="div-check-match">Please type a password</p>
+        </div>
+
+        <div class="nusmaids-form-item-wrapper">
+            <div class="form-create-header">
+                <label class="create-form-group">Contact Number</label>
+            </div>
+            <div class="form-create-input">
+                <input type="tel" class="form-control" id="input-contact-number" placeholder="90785634">
+            </div>
+        </div>
+
+        <div class="nusmaids-form-item-wrapper">
+            <div class="form-create-header">
+                <label class="create-form-group">First Name</label>
+            </div>
+            <div class="form-create-input">
+                <input type="text" class="form-control" id="input-first-name" placeholder="John">
+            </div>
+        </div>
+
+        <div class="nusmaids-form-item-wrapper">
+            <div class="form-create-header">
+                <label class="create-form-group">Last Name</label>
+            </div>
+            <div class="form-create-input">
+                <input type="text" class="form-control" id="input-last-name" placeholder="Smith">
+            </div>
         </div>
 
         <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="create-account-button">Create Account</button>
