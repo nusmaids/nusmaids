@@ -16,11 +16,15 @@
 
         <div id="navbar" class="navbar-collapse collapse">
 
-            <div class="navbar-right">
+            <div class="navbar-right" id="navbar-right-null">
                 <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="register.php" role="button" id="registerButton">Register</a>
                 <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="login.php" role="button" id="logInButton">Login</a>
             </div>
 
+            <div class="navbar-right" id="navbar-right-session">
+                <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="profile.php" role="button" id="usernameButton"></a>
+                <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="logout.php" role="button" id="logOutButton">Logout</a>
+            </div>
         </div>
 
     </div>

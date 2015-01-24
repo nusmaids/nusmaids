@@ -18,16 +18,20 @@
 <body>
     <?php
         include("layout/navbar.php");
-        //bool session_start(void); $_SESSION['emailAddress']
     ?>
 
-    <?php if (1==1) : ?>
-            <script>
-                $("#logInButton").html("Logout");
-                $("#registerButton").remove();
-            </script>
+    <?php if (isSet($_SESSION["emailAddress"])) : ?>
+        <script>
+            $("#navbar-right-null").remove();
+            $("#usernameButton").html($_SESSION['emailAddress']);
+        </script>
 
-    <?php endif; ?>
+    <?php else : ?>
+        <script>
+            $("#navbar-right-session").remove();
+        </script>
+
+    <?php endif ; ?>
 
     <div class="jumbotron">
         <div class="container">
