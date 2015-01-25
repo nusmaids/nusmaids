@@ -8,6 +8,7 @@
    $db = pg_connect( "$host $port $dbname $credentials $sslmode"  );
    if(!$db){
        echo "Error : Unable to open database\n";
+       exit;
    } else {
        echo "Opened database successfully\n";
    }

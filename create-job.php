@@ -11,7 +11,7 @@
 
 <body>
     <?php
-        include("layout/login-redirect.php");
+        #include("layout/login-redirect.php");
         include("layout/navbar.php");
     ?>
 
@@ -23,14 +23,14 @@
         </div>
         <hr>
         <div class="container form-create-container" id="create-form-container">
-            <form class="form-horizontal" id="create-form-horizontal" action="show-job.php" method="post">
+            <form class="form-horizontal" id="create-form-horizontal" action="add-job.php" method="post">
 
-                <div class="form-create-header" id="create-job-type" name="inputjobtype" >
+                <div class="form-create-header" id="create-job-type" >
                     <label class="create-form-group">Job type</label>
                 </div>
 
                 <div class="create-dropdown" id="create-dropdown">
-                    <select class="form-control create-select" id="create-select-type" name="inputjobtype">
+                    <select class="form-control create-select" id="create-select-type" name="inputJobType">
                         <option value = 1>Cleaning</option>
                         <option value = 2>Repairs</option>
                         <option value = 3>Labour</option>
