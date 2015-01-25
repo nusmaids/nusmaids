@@ -31,11 +31,7 @@
         <div class="container form-create-container" id="create-form-container">
             <form class="form-horizontal" id="create-form-horizontal" action="add-job.php" method="post">
 
-<<<<<<< HEAD
-                <div class="form-create-header" id="create-job-type" >
-=======
                 <div class="form-create-header" id="create-job-type" name="inputJobType" >
->>>>>>> 1aa4bb2336b4df4d4e3dd4890fabf1480a1d8ec3
                     <label class="create-form-group">Job type</label>
                 </div>
 
