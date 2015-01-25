@@ -23,7 +23,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1>NUSMaids</h1>
-            <h3>Be a maid, do the right thing!</h3>
+            <h3>The platform that solves your odd-job problems</h3>
         </div>
         <hr>
         <div class="container" style="border: 1px solid black">

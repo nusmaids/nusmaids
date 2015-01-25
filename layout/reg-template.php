@@ -6,7 +6,7 @@
 <hr>
 
 <div class="container form-create-container" id="create-form-container">
-    <form class="form-horizontal" id="create-form-horizontal" >
+    <form class="form-horizontal" id="create-form-horizontal" method="post">
 
         <div class="nusmaids-form-item-wrapper">
             <div class="form-create-header">
