@@ -13,6 +13,7 @@
 <hr>
 
 <script src="js/checkpass.js"></script>
+<script src="js/checkemail.js"></script>
 <div class="container form-create-container" id="create-form-container">
     <form class="form-horizontal" id="create-form-horizontal" action= "add-user.php" method="post">
 
@@ -23,6 +24,10 @@
             <div class="form-create-input">
                 <input type="email" name="registerEmail" class="form-control" id="input-nus-email" placeholder="a1234567@nus.edu.sg">
             </div>
+        </div>
+
+        <div class="nusmaids-form-item-wrapper">
+            <p class="form-error-message" id="div-check-domain"></p>
         </div>
 
         <div class="nusmaids-form-item-wrapper">
