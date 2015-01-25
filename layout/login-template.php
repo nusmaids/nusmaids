@@ -26,7 +26,7 @@
                 <label class="create-form-group">Password</label>
             </div>
             <div class="form-create-input">
-                <input type="password" class="form-control" id="input-password" >
+                <input type="password" class="form-control" id="input-password-login" >
             </div>
         </div>
 
@@ -34,3 +34,33 @@
 
     </form>
 </div>
+
+<?php
+function login() {
+    if(empty($_POST['username']))
+    {
+        $this->HandleError("Email field is empty!");
+        return false;
+    }
+
+    if(empty($_POST['password']))
+    {
+        $this->HandleError("Password is empty!");
+        return false;
+    }
+
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
+
+    if(!$this->CheckLoginInDB($username,$password))
+    {
+        return false;
+    }
+
+    session_start();
+
+    $_SESSION[$this->GetLoginSessionVar()] = $username;
+
+    return true;
+}
+?>

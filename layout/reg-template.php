@@ -5,6 +5,7 @@
 
 <hr>
 
+<script src="js/checkpass.js"></script>
 <div class="container form-create-container" id="create-form-container">
     <form class="form-horizontal" id="create-form-horizontal" method="post">
 
