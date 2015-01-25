@@ -28,24 +28,24 @@
                 <div class="confirm-create-header" id="create-job-type-confirm">
                     <label class="create-confirm-group">Job type</label>
                 </div>
-
-                <div class="create-dropdown" id="create-dropdown">
-                    <select class="form-control create-select" id="create-select-type">
-                        <option>Cleaning</option>
-                        <option>Repairs</option>
-                        <option>Labour</option>
-                        <option>Handicap Assistance</option>
-                    </select>
+                <div class="confirm-create-input" id="create-job-type-input">
+                    <p id="confirm-create-input-field">
+                        <?php
+                            echo $_POST['inputjobtype'];
+                        ?>
+                    </p>
                 </div>
-                <script> // this sets the selected element to the job that the user clicked on to get here
-                document.getElementById('create-select-type').selectedIndex=<?php echo $_GET["j"] - 1 ?>;
-                </script>
 
-                <div class="form-create-header">
-                    <label class="create-form-group">Remuneration (in SGD)</label>
+
+                <div class="confirm-create-header">
+                    <label class="create-confirm-group">Remuneration (in SGD)</label>
                 </div>
-                <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputRemuneration" placeholder="Expected pay">
+                <div class="confirm-create-input" id="create-job-type-input">
+                    <p id="confirm-create-input-field">
+                        <?php
+                            echo $_POST['inputjobtype'];
+                        ?>
+                    </p>
                 </div>
 
                 <div class="form-create-header">
