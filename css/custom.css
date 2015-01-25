@@ -12,21 +12,14 @@ body {
 }
 
 .nusmaids-selection-box {
-    border: 1px solid black;
-    display: inline-block;
-    width: 50%;
-}
-
-#find-jobs-box {
-    float: left;
-}
-
-#create-jobs-box {
-    float: right;
+    border: 0px solid black;
+    text-align: center;
 }
 
 .nusmaids-selection-link {
     margin: 5px;
+    width: 50%;
+    font-size: 16px;
 }
 
 .nusmaids-selection-link:hover {
