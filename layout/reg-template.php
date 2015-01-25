@@ -66,16 +66,7 @@
                 <label class="create-form-group">First Name</label>
             </div>
             <div class="form-create-input">
-                <input type="text" name="registerFirstName" class="form-control" id="input-first-name" placeholder="John">
-            </div>
-        </div>
-
-        <div class="nusmaids-form-item-wrapper">
-            <div class="form-create-header">
-                <label class="create-form-group">Last Name</label>
-            </div>
-            <div class="form-create-input">
-                <input type="text" name="registerLastName" class="form-control" id="input-last-name" placeholder="Smith">
+                <input type="text" name="registerName" class="form-control" id="input-name" placeholder="John Kevin">
             </div>
         </div>
 
