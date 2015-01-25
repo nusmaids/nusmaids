@@ -1,5 +1,5 @@
+<?php session_start();  ?>
 <nav class="navbar navbar-inverse navbar-fixed-top">
-
 
     <div class="container">
 
@@ -17,23 +17,21 @@
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
-
             <div class="navbar-right" id="navbar-right-null">
                 <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="register-page.php" role="button" id="registerButton">Register</a>
                 <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="login-page.php" role="button" id="logInButton">Login</a>
             </div>
-
             <div class="navbar-right" id="navbar-right-session">
-                <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="profile-page.php" role="button" id="usernameButton"></a>
+                <a class="btn btn-primary btn-lg btn-success nusmaids-navbar-item" href="profile-page.php" role="button" id="usernameButton"> <?php echo $_SESSION['name'] ?></a>
                 <a class="btn btn-primary btn-lg nusmaids-navbar-item" href="logout.php" role="button" id="logOutButton">Logout</a>
             </div>
         </div>
 
     </div>
-    <?php if (isSet($_SESSION["emailAddress"])) : ?>
+    <?php if (isset($_SESSION)): ?>
         <script>
         $("#navbar-right-null").remove();
-        $("#usernameButton").html($_SESSION['emailAddress']);
+        $("#usernameButton").html($_SESSION['email']);
     </script>
 
     <?php else : ?>

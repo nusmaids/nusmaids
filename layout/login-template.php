@@ -13,7 +13,7 @@
 <hr>
 
 <div class="container form-create-container" id="create-form-container">
-    <form class="form-horizontal" id="create-form-horizontal" > <!--needs to run a scrpit to check the user/pass and display error msg below if fail-->
+    <form class="form-horizontal" id="create-form-horizontal" action="login-user.php" method="post" > <!--needs to run a scrpit to check the user/pass and display error msg below if fail-->
 
         <div class="nusmaids-form-item-wrapper">
             <p class="form-error-message" id="div-check-auth">Invalid username and password combination! Please try again.</p>
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <button type="submit" name="loginSubmit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="create-account-button">Login</button>
+        <button type="submit" name="loginSubmit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="login-button">Login</button>
 
     </form>
 </div>
