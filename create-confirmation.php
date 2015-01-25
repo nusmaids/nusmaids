@@ -23,62 +23,80 @@
         </div>
         <hr>
         <div class="container confirm-create-container" id="create-confirm-container">
-            <form class="confirm-horizontal" id="create-confirm-horizontal">
-
-                <div class="confirm-create-header" id="create-job-type-confirm">
-                    <label class="create-confirm-group">Job type</label>
-                </div>
-                <div class="confirm-create-input" id="create-job-type-input">
-                    <p id="confirm-create-input-field">
-                        <?php
-                            echo $_POST['inputjobtype'];
-                        ?>
-                    </p>
-                </div>
 
 
-                <div class="confirm-create-header">
-                    <label class="create-confirm-group">Remuneration (in SGD)</label>
-                </div>
-                <div class="confirm-create-input" id="create-job-type-input">
-                    <p id="confirm-create-input-field">
-                        <?php
-                            echo $_POST['inputjobtype'];
-                        ?>
-                    </p>
-                </div>
+            <div class="confirm-create-header" id="create-job-type-confirm">
+                <label class="create-confirm-group">Job type</label>
+            </div>
+            <div class="confirm-create-input" id="create-job-type-input">
+                <p id="confirm-create-input-field">
+                    <?php
+                    echo $_POST['inputJobType'];
+                    ?>
+                </p>
+            </div>
 
-                <div class="form-create-header">
-                    <label class="create-form-group">Location</label>
-                </div>
-                <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputLocation" placeholder="Your job location">
-                </div>
 
-                <div class="form-create-header">
-                    <label class="create-form-group">Starting from</label>
-                </div>
-                <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputStartDate" placeholder="DD/MM/YYYY">
-                </div>
+            <div class="confirm-create-header">
+                <label class="create-confirm-group">Remuneration (in SGD)</label>
+            </div>
+            <div class="confirm-create-input" id="create-remuneration-input">
+                <p id="confirm-create-input-field">
+                    <?php
+                    echo $_POST['inputExpectedPay'];
+                    ?>
+                </p>
+            </div>
 
-                <div class="form-create-header">
-                    <label class="create-form-group">Ending at</label>
-                </div>
-                <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputEndDate" placeholder="DD/MM/YYYY">
-                </div>
+            <div class="confirm-create-header">
+                <label class="create-confirm-group">Location</label>
+            </div>
+            <div class="confirm-create-input" id="create-location-input">
+                <p id="confirm-create-input-field">
+                    <?php
+                    echo $_POST['inputLocation'];
+                    ?>
+                </p>
+            </div>
 
-                <div class="form-create-header">
-                    <label class="create-form-group">Description</label>
-                </div>
-                <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputDescription" placeholder="Your job description">
-                </div>
+            <div class="confirm-create-header">
+                <label class="create-confirm-group">Starting from</label>
+            </div>
+            <div class="confirm-create-input" id="create-start-input">
+                <p id="confirm-create-input-field">
+                    <?php
+                    echo $_POST['inputStartDate'];
+                    ?>
+                </p>
+            </div>
 
-                <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="createSubmitButton">Create Job</button>
+            <div class="confirm-create-header">
+                <label class="create-confirm-group">Ending at</label>
+            </div>
+            <div class="confirm-create-input" id="create-start-input">
+                <p id="confirm-create-input-field">
+                    <?php
+                    echo $_POST['inputEndDate'];
+                    ?>
+                </p>
+            </div>
 
-            </form>
+            <div class="confirm-create-header">
+                <label class="create-confirm-group">Description</label>
+            </div>
+            <div class="confirm-create-input" id="create-start-input">
+                <p id="confirm-create-input-field">
+                    <?php
+                    echo $_POST['inputDescription'];
+                    ?>
+                </p>
+            </div>
+
+            <div>
+                <a class="btn btn-primary btn-lg btn-success nusmaids-form-button" href="add-job.php" role="button" id="confirmButton">Confirm</a>
+            </div>
+
+
         </div>
 
     </div>
