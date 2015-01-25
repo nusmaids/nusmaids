@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
+            <img class="nusmaids-navbar-logo" src="img/NUSMaids logo.png">
             <a class="navbar-brand nusmaids-navbar-item nusmaids-brand" href="/">NUSMaids</a>
 
         </div>

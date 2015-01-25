@@ -3,12 +3,18 @@ body {
     padding-bottom: 20px;
 }
 
+.nusmaids-navbar-logo {
+    float: left;
+    margin: 5px;
+    height: 50px;
+}
+
 .nusmaids-navbar-item {
     margin: 5px 5px;
 }
 
 .nusmaids-brand {
-    font-size: 28px;
+    font-size: 50px;
 }
 
 .nusmaids-selection-box {
