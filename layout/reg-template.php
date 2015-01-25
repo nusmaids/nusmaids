@@ -14,7 +14,7 @@
 
 <script src="js/checkpass.js"></script>
 <div class="container form-create-container" id="create-form-container">
-    <form class="form-horizontal" id="create-form-horizontal" method="post">
+    <form class="form-horizontal" id="create-form-horizontal" action= "add-user.php" method="post">
 
         <div class="nusmaids-form-item-wrapper">
             <div class="form-create-header">
