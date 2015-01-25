@@ -11,15 +11,21 @@
 
 <body>
     <?php
-        include("layout/login-redirect.php");
+        //include("layout/login-redirect.php");
         include("layout/navbar.php");
     ?>
 
     <div class="jumbotron">
-
         <div class="container">
-            <h1>Find A Maid</h1>
-            <h3>Let them do the right thing for you!</h3>
+            <div class="row">
+                <div class="nusmaids-title-container">
+                    <h1>Create A Job</h1>
+                    <h3>Others are happy to do your jobs for you!</h3>
+                </div>
+                <div class="nusmaids-logo-container">
+                    <img class="nusmaids-inline-logo" src="img/NUSMaids logo.png">
+                </div>
+            </div>
         </div>
         <hr>
         <div class="container form-create-container" id="create-form-container">

@@ -1,6 +1,13 @@
 <div class="container">
-    <h1>Login</h1>
-    <h3>Start doing the right thing!</h3>
+    <div class="row">
+        <div class="nusmaids-title-container">
+            <h1>Login</h1>
+            <h3>Logging in allows you to manage your jobs!</h3>
+        </div>
+        <div class="nusmaids-logo-container">
+            <img class="nusmaids-inline-logo" src="img/NUSMaids logo.png">
+        </div>
+    </div>
 </div>
 
 <hr>

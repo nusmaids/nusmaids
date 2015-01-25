@@ -1,6 +1,13 @@
 <div class="container">
-    <h1>Register</h1>
-    <h3>The right things need doing!</h3>
+    <div class="row">
+        <div class="nusmaids-title-container">
+            <h1>Register</h1>
+            <h3>Get started! Do jobs and get your jobs done!</h3>
+        </div>
+        <div class="nusmaids-logo-container">
+            <img class="nusmaids-inline-logo" src="img/NUSMaids logo.png">
+        </div>
+    </div>
 </div>
 
 <hr>
