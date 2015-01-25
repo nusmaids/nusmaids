@@ -28,7 +28,7 @@
         </div>
 
     </div>
-    <?php if (isset($_SESSION)): ?>
+    <?php if (isset($_SESSION['logged'])): ?>
         <script>
         $("#navbar-right-null").remove();
         $("#usernameButton").html($_SESSION['email']);
