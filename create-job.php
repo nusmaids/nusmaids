@@ -45,14 +45,14 @@
                     <label class="create-form-group">Remuneration (in SGD)</label>
                 </div>
                 <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputRemuneration" placeholder="Expected pay" name="inputexpectedpay">
+                    <input type="text" class="form-control" id="inputRemuneration" placeholder="Expected pay" name="inputExpectedPay">
                 </div>
 
                 <div class="form-create-header">
                     <label class="create-form-group">Location</label>
                 </div>
                 <div class="form-create-input">
-                    <input type="text" class="form-control" id="inputLocation" placeholder="Your job location">
+                    <input type="text" class="form-control" id="inputLocation" name="inputLocation" placeholder="Your job location">
                 </div>
 
                 <div class="form-create-header">
