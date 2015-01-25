@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST)) {
-    include("sample-connect.php");
+    include("connect.php");
     $email = pg_escape_string($_POST['registerEmail']);
     $password= password_hash(pg_escape_string($_POST['registerPassword']), PASSWORD_DEFAULT);
     $contact =  pg_escape_string($_POST['registerContactNumber']);
@@ -15,8 +15,6 @@ if (isset($_POST)) {
             RETURNING *;
         ";
     }
-
-$result = pg_fetch_assoc(pg_query($db, $sql));
-echo $result;
-echo var_dump($_POST);
+    pg_query($db, $sql);
+    header("Location: index.php");
 ?>
