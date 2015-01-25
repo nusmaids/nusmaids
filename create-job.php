@@ -25,7 +25,7 @@
         <div class="container form-create-container" id="create-form-container">
             <form class="form-horizontal" id="create-form-horizontal" action="show-job.php" method="post">
 
-                <div class="form-create-header" id="create-job-type" name="inputjobtype" >
+                <div class="form-create-header" id="create-job-type" name="inputJobType" >
                     <label class="create-form-group">Job type</label>
                 </div>
 
