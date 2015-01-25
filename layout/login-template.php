@@ -1,6 +1,13 @@
 <div class="container">
-    <h1>Login</h1>
-    <h3>Start doing the right thing!</h3>
+    <div class="row">
+        <div class="nusmaids-title-container">
+            <h1>Login</h1>
+            <h3>Logging in allows you to manage your jobs!</h3>
+        </div>
+        <div class="nusmaids-logo-container">
+            <img class="nusmaids-inline-logo" src="img/NUSMaids logo.png">
+        </div>
+    </div>
 </div>
 
 <hr>
@@ -17,7 +24,7 @@
                 <label class="create-form-group">NUS Email</label>
             </div>
             <div class="form-create-input">
-                <input type="email" class="form-control" id="input-nus-email" placeholder="a1234567@nus.edu.sg">
+                <input type="email" name="loginEmail" class="form-control" id="input-nus-email" placeholder="a1234567@nus.edu.sg">
             </div>
         </div>
 
@@ -26,11 +33,11 @@
                 <label class="create-form-group">Password</label>
             </div>
             <div class="form-create-input">
-                <input type="password" class="form-control" id="input-password-login" >
+                <input type="password" name="loginPassword" class="form-control" id="input-password-login" >
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="create-account-button">Login</button>
+        <button type="submit" name="loginSubmit" class="btn btn-primary btn-lg btn-success nusmaids-form-button" id="create-account-button">Login</button>
 
     </form>
 </div>

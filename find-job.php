@@ -16,8 +16,15 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h1>Be A Maid</h1>
-            <h3>Do the right thing!</h3>
+            <div class="row">
+                <div class="nusmaids-title-container">
+                    <h1>Be A Maid</h1>
+                    <h3>Farm karma by doing jobs for others!</h3>
+                </div>
+                <div class="nusmaids-logo-container">
+                    <img class="nusmaids-inline-logo" src="img/NUSMaids logo.png">
+                </div>
+            </div>
         </div>
 
         <hr>

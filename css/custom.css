@@ -17,6 +17,16 @@ body {
     font-size: 50px;
 }
 
+.nusmaids-title-container {
+    width: 50%;
+    float: left;
+}
+
+.nusmaids-logo-container {
+    width: 25%;
+    float: right;
+}
+
 .nusmaids-selection-box {
     border: 0px solid black;
     text-align: center;

@@ -16,8 +16,15 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h1>NUSMaids</h1>
-            <h3>The platform that solves your odd-job problems</h3>
+            <div class="row">
+                <div class="nusmaids-title-container">
+                    <h1>NUSMaids</h1>
+                    <h3>The platform that solves your odd-job problems</h3>
+                </div>
+                <div class="nusmaids-logo-container">
+                    <img class="nusmaids-inline-logo" src="img/NUSMaids logo.png">
+                </div>
+            </div>
         </div>
         <hr>
         <div class="container" id="selection-container">
